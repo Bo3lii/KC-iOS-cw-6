@@ -65,9 +65,9 @@ struct ContentView: View {
               
 
                 Text("BMI = \(bmi)")
-                    .font(.title2)
+                    .font(.system(size: 30, weight: .semibold, design: .monospaced))
                 Text("Status = \(status)")
-                    .font(.title2)
+                    .font(.system(size: 30, weight: .semibold, design: .monospaced))
                 Image(Img)
                     .resizable()
                     .scaledToFit()
