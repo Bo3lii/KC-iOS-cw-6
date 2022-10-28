@@ -82,7 +82,7 @@ struct ContentView: View {
         let bbmi = weight / (height * height)
         
         if bbmi <= 18{
-           status = "abdullah albanay"
+           status = "Hussien"
             Img = "stick"
             
         }else if bbmi <= 25 {
